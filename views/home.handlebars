@@ -1,0 +1,32 @@
+
+<div class="large-9 columns home">
+  <h1>Welcome to the <span>ELEARNING</span></h1>
+  <p class='primary'>ELEARNING is free online learning platform. Here, you can gain some mad skillz for launching your career as a web developer . Here
+  you are instructed by developers with a lot of experience, our weakest instructor for now is <a href="https://thumbs.dreamstime.com/z/little-baby-hacker-typing-laptop-compiuter-36984411.jpg" target="_blank">instructor</a> with skill level 83, so as you can see we have a pretty strong <a href="http://ksassets.timeincuk.net/wp/uploads/sites/55/2017/05/South-Park-920x584.png" target="_blank">team</a>.  </p>
+
+  {{#if user}}
+    <p></p>
+  {{else}}
+  <a href="/users/signup" class='warning hollow button'>Signup</a>
+  <p>You need to signup to register for classes</p>
+  {{/if}}
+
+
+</div>
+<div class="large-3 columns login_home">
+  {{>login}}
+</div>
+<div class="row">
+  <div class="large-12 columns edu_quote">
+    <blockquote>
+    Great things in business are never done by one person. They're done by a team of people.
+    <cite title="Source Title">Steve Jobs</cite>
+</blockquote>
+  </div>
+</div>
+<div class="row">
+  <div class="large-12 columns block_wrapper">
+    <h3>Latest Classes</h3>
+      {{>blocks}}
+  </div>
+</div>

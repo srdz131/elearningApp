@@ -1,0 +1,17 @@
+<h2>Add Lesson</h2>
+<form  action="/instructors/classes/{{class_id}}/lessons/new" method="post">
+      <label >Lesson Number
+        <input type="text" name='lesson_number' required/>
+      </label>
+      <label >Lesson Title
+        <input type="text" name='lesson_title' required/>
+      </label>
+      <label >Lesson Body
+        <textarea name='lesson_body' required></textarea>
+      </label>
+      <input type="submit" value="Submit" class='button success'>
+</form>
+<script type="text/javascript" src='/ckeditor/ckeditor.js'></script>
+<script>
+    CKEDITOR.replace('lesson_body');
+    </script>

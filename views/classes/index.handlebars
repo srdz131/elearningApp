@@ -1,0 +1,13 @@
+<h1>Classes</h1>
+{{# each classes}}
+
+    <div class="large-3 columns block">
+      <h3>{{title}}</h3>
+      {{{description}}}
+      <hr/>
+      <p>Author: {{instructor}}</p>
+      <a href="/classes/{{_id}}/details" class="warning hollow button">Read More..</a>
+    </div>
+
+
+{{/ each}}

@@ -1,0 +1,21 @@
+<h3>Add new Class</h3>
+<div class="row">
+  <div class="6-large columns">
+    <form action="/instructors/classes/add" method="post">
+      <label for="title">Title
+        <input type="text" name="title" required>
+      </label>
+      <label for="description">Description
+        <textarea type="text" name="description" required></textarea>
+      </label>
+      <label for="instructor">Instructor
+        <input type="text" name="instructor" value ='{{instructor.first_name}} {{instructor.last_name}}' required>
+      </label>
+      <input type="submit" value="Add Class" class = 'button hollow success'>
+    </form>
+  </div>
+</div>
+<script type="text/javascript" src='/ckeditor/ckeditor.js'></script>
+<script>
+    CKEDITOR.replace('description');
+    </script>

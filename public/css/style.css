@@ -1,0 +1,73 @@
+@font-face {
+  font-family: 'comforta';
+  src: url('fonts/Comfortaa-Regular.ttf');
+}
+
+body {
+
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+#header_title{
+  font-family: 'comforta';
+  margin: 5vh 0;
+  color: #bf2b13;
+}
+.home h1 {
+  font-family: 'comforta';
+  margin: 7vh 0;
+}
+.home h1 span{
+  font-family: 'comforta';
+  margin: 7vh 0;
+  color:#bf2b13;
+}
+.topbar-container{
+  margin-bottom: 5vh;
+}
+.login_home{
+  margin-top:7vh;
+}
+.block{
+  text-align: justify;
+   text-justify: inter-word;
+   margin-top: 5vh;
+}
+.block_wrapper{
+  margin-top: 5vh;
+}
+.block_wrapper h3{
+  text-align: center;
+}
+.orbit-image{
+  height: 60vh;
+}
+.edu_quote{
+  background: url('/images/edu.jpg');
+  height: 60vh;
+  background-repeat: no-repeat;
+  opacity: 0.9;
+}
+.edu_quote blockquote{
+  background-color: transparent;
+  text-align: center;
+  margin-top: 15vh;
+  font-size: 1.2em
+}
+.register_form{
+  background: #0B0606;
+  margin-top:5vh;
+
+}
+.register_form h2{
+  text-align: center;
+  font-family: 'comforta';
+  font-size:5vh;
+  padding-top: 3vh;
+}
+footer{
+  text-align: center;
+}

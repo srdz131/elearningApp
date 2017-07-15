@@ -1,0 +1,73 @@
+
+<div class="row ">
+  <div class="small-6 large-centered columns register_form">
+    <h2>CREATE AN ACCOUNT</h2>
+    <form class="userRegistrationForm" action="/users/signup" method="post">
+        <label for="select_box"> Account Type
+          <select name="type">
+            <option value="student">Student</option>
+            <option value="instructor">Instructor</option>
+          </select>
+        </label>
+
+        <label >First Name
+              <input type="text" name='first_name' required/>
+            </label>
+
+
+
+        <label>Last Name
+            <input type="text" name='last_name' required/>
+          </label>
+
+
+
+        <label >Street Adress
+          <input type="text" name='street_adress' />
+        </label>
+
+
+
+        <label >City
+        <input type="text" name='city' />
+      </label>
+
+
+
+        <label >Country
+        <input type="text" name='country' />
+      </label>
+
+
+
+        <label >Email Adress
+        <input type="text" name='email' required/>
+      </label>
+
+
+
+        <label >Username
+        <input type="text" name='username' required/>
+      </label>
+
+
+
+        <label >Password
+          <input type="password" name='password' required />
+        </label>
+
+
+
+        <label>Confirm Password
+            <input type="password" name='password2' required/>
+          </label>
+
+
+            <input type="submit" class='large button blue ' value="Sign Up">
+
+
+
+    </form>
+
+  </div>
+</div>

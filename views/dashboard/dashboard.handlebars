@@ -1,0 +1,19 @@
+<h2>Welcome to the ELEARNING {{user.username}}</h2>
+
+<section>
+  <article>
+    <p>You can see all our classes and register for new classes if you go to the <a href="/classes">Classes</a> section of our site, also you can
+    see our latest classes at the bottom of the page.</p>
+    <p>You can see classes you are currently registered here <a href="/{{type}}s/classes">My Classes</a></p>
+    {{#if instructor}}
+      <p>You can add new classes here <a href="/instructors/classes/add">Add new Class</a></p>
+    {{/if}}
+  </article>
+</section>
+<hr>
+<div class="row">
+  <div class="large-12 columns block_wrapper">
+    <h3>Latest Classes</h3>
+      {{>blocks}}
+  </div>
+</div>
